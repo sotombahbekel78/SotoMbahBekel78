@@ -17,14 +17,14 @@ const menus = [
   {
     nama: "MIE GORENG JAWA",
     kategori: "Favorit 🔥",
-    harga: "Rp 17.000",
+    harga: "Rp 13.000",
     deskripsi: "Mie goreng Jawa autentik dengan aroma smokey, rasa manis gurih, dan bumbu tradisional.",
     gambar: "mie-goreng.jpg"
   },
   {
     nama: "ES TEH MANIS JUMBO",
     kategori: "Pelengkap 🧊",
-    harga: "Rp 5.000",
+    harga: "Rp 4.000",
     deskripsi: "Es teh manis segar ukuran jumbo, cocok untuk semua menu.",
     gambar: "es-teh.jpg"
   }
@@ -63,3 +63,4 @@ menus.forEach(item => {
 
   container.appendChild(card);
 });
+
