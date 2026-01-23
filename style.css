@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background-color: #b22222;
+  color: white;
+  text-align: center;
+  padding: 24px 16px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* ABOUT */
+#about {
+  background: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* MENU GRID */
+#menu-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+  padding: 20px;
+}
+
+/* CARD */
+.menu-card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* IMAGE 4:5 */
+.menu-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* BRAND OVERLAY */
+.menu-brand {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(178, 34, 34, 0.85);
+  color: #ffffff;
+  text-align: center;
+  padding: 6px 4px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+/* BADGE */
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ff9800;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+/* CONTENT */
+.menu-content {
+  padding: 14px;
+  font-size: 14px;
+}
+
+.menu-content h2 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.price {
+  font-weight: bold;
+  color: #b22222;
+  margin-bottom: 6px;
+}
+
+/* WHATSAPP */
+.whatsapp-btn {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #25D366;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
+/* FOOTER */
+footer {
+  background: #eaeaea;
+  text-align: center;
+  padding: 16px;
+  font-size: 13px;
+}
