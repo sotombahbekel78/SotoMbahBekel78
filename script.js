@@ -397,3 +397,4 @@ document.addEventListener("DOMContentLoaded", () => {
   initWhatsAppButtons();
   updateCopyright();
 });
+
