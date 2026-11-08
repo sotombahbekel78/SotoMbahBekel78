@@ -66,23 +66,18 @@ const products = [
 ================================= */
 
 const activities = [
-
-  // CONTOH PENAMBAHAN VIDEO:
-  //
-  // {
-  //   judul: "Aktivitas Peternakan Kambing Etawa",
-  //   kategori: "Peternakan",
-  //   deskripsi: "Dokumentasi kegiatan di area peternakan.",
-  //   link: "https://www.tiktok.com/@ud.sinarsakti78/video/ID_VIDEO"
-  // },
-  //
-  // {
-  //   judul: "Proses Pengolahan Pupuk",
-  //   kategori: "Produksi",
-  //   deskripsi: "Dokumentasi proses pengolahan pupuk organik.",
-  //   link: "https://www.tiktok.com/@ud.sinarsakti78/video/ID_VIDEO"
-  // }
-
+  {
+    judul: "Aktivitas Peternakan",
+    kategori: "Peternakan",
+    deskripsi: "Kegiatan peternakan kambing etawa.",
+    link: "https://vt.tiktok.com/ZSpSaeuoT/"
+  },
+  {
+    judul: "Proses Pengolahan Pupuk",
+    kategori: "Produksi",
+    deskripsi: "Proses pengolahan pupuk organik.",
+    link: "https://vt.tiktok.com/ZSpS5bHVx/"
+  }
 ];
 
 
